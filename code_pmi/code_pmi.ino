@@ -46,10 +46,10 @@ void loop() {
       //attente tirette
       Serial.println("attente tirette\n");
 
-       if(sensorValue == LOW){
-         //passage en attente départ
-         state ++;
-        }
+      if (sensorValue == LOW) {
+        //passage en attente départ
+        state ++;
+      }
       break;
 
 
